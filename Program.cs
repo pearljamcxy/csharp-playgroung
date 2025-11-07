@@ -23,8 +23,8 @@ class Program
             }
             attempts++;
 
-            if(guess > target){Console.ReadLine("your number is too large")};
-            else if (guess < target){Console.ReadLine("your number is too small")};
+            if (guess > target) Console.WriteLine("your number is too large");
+            else if (guess < target) Console.WriteLine("your number is too small");
 
             else {
                 Console.WriteLine($"you got the number!the answer is {target}");
