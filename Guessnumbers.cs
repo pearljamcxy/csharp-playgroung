@@ -20,6 +20,7 @@ namespace GuessNumbers
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out guess)){
                     Console.WriteLine("you didnt input a right number!");
+                    continue;
                 }
                 attemps++;
 
