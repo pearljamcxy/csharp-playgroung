@@ -21,7 +21,7 @@ namespace GuessNumbers
                 if (!int.TryParse(input, out guess)){
                     Console.WriteLine("you didnt input a right number!");
                 }
-                attemps ++
+                attemps++;
 
                 if (guess > target){ Console.WriteLine("it is lager");}
                 else if (guess < target){ Console.WriteLine("it is smaller");}
